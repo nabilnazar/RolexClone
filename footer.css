@@ -1,0 +1,99 @@
+.divider{
+    background-color:white;
+    height: 100px;
+}
+.divider-text-first{
+    margin-top: 40px;
+    margin-left: 150px;
+    font-family: Helvetica;
+    font-size: 14px;
+    color: rgb(74, 73, 73);
+    display: flex;
+    direction: row;
+    gap:10px;
+}
+
+.divider-home-text:hover{
+    cursor: pointer;
+    color: green;
+}
+
+.divider-watches-text:hover{
+    cursor: pointer;
+    color: green;
+}
+.divider-2023-text{
+    color: green;
+}
+.divider-2023-text:hover{
+    cursor: pointer;
+    color:  rgb(74, 73, 73);
+}
+.divider-icon-second{
+    margin-top: 20px;
+    margin-left: 150px;
+    display: flex;
+    direction: row;
+    gap:24px;
+    font-family: Helvetica;
+    font-weight: bold;
+}
+
+.divider-icon-second img{
+    height: 15px;
+    align-self: center;
+}
+
+.bottom-second-divider{
+    height:1000px;
+    background-color: rgb(244, 241, 241);
+    display:flex;
+    direction: row;
+    gap:180px;
+}
+.rolex-logo-last{
+    margin-top: 60px;
+    margin-left: 160px;
+}
+li{
+    color:rgb(72, 70, 70);
+    padding: 6px;
+    font-weight:600;
+    font-family:'Roboto';
+
+}
+ul{
+    list-style: none; 
+    text-align: left;
+
+}
+.bottom-second-divider-second-section,
+.bottom-second-divider-third-section,
+.bottom-second-divider-fourth-section{
+    margin-top: 50px;
+}
+
+.lastfooter img{
+   width: 100%;
+  }
+
+  .lastfooter p{
+    font-family:Helvetica;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+   }
+
+.lastfooter{
+    position: relative;
+}
+.lastdiv{
+    position: absolute;
+    top: 170px;
+    left: 700px;
+}
+hr{
+   margin: 0px;  
+   padding: 0px; 
+   border: none; 
+}

@@ -1,0 +1,135 @@
+
+.heading{
+    font-family: Helvetica;
+    font-size: 100px;
+    margin-top: 0%;
+
+}
+
+.videoclass{
+   display: flex;
+   justify-content: center;
+   height: 900px;
+   margin: 0 auto;
+}
+.rolex-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.rolex-transition-text{
+    text-align: left;
+    font-family: Helvetica;
+    font-weight:700;
+    font-size: 50px;
+    line-height: 60px ;
+    max-width: 800px;
+    animation: fadeAnimation 4s linear 1;
+}
+
+@keyframes fadeAnimation {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+
+.image1 {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  
+  .firstimage{
+    position: relative;
+  }
+
+  .firstimage-text{
+    position: absolute;
+    margin-top: 480px;
+    margin-left: 150px;
+    color: white;
+    line-height: 1.5;
+    font-family: Helvetica;
+  }
+
+  
+  .secondimage-text{
+    position: absolute;
+    margin-top: 1320px;
+    margin-left: 150px;
+    color: white;
+    line-height: 1.5;
+    font-family: Helvetica;
+  }
+
+  .thirdimage-text{
+    position: absolute;
+    margin-top: 2100px;
+    margin-left: 150px;
+    color: white;
+    line-height: 1.5;
+    font-family: Helvetica;
+  }
+
+
+  .fourthimage-text{
+    position: absolute;
+    margin-top: 2900px;
+    margin-left: 150px;
+    color: white;
+    line-height: 1.5;
+    font-family: Helvetica;
+  }
+  .fifthimage-text{
+    position: absolute;
+    margin-top: 3650px;
+    margin-left: 150px;
+    color: white;
+    line-height: 1.5;
+    font-family: Helvetica;
+  }
+  .sixthimage-text{
+    position: absolute;
+    margin-top: 4450px;
+    margin-left: 150px;
+    color: white;
+    line-height: 1.5;
+    font-family: Helvetica;
+  }
+  .seventhimage-text{
+    position: absolute;
+    margin-top: 5250px;
+    margin-left: 150px;
+    color: white;
+    line-height: 1.5;
+    font-family: Helvetica;
+  }
+  .eigthimage-text{
+    position: absolute;
+    margin-top: 6000px;
+    margin-left: 150px;
+    color: white;
+    line-height: 1.5;
+    font-family: Helvetica;
+  }
+
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+.heading p{
+    margin-top: 0%;
+    font-weight: bold;
+    text-align: center;
+    
+}
+.flexbox{
+    height: 130px;
+}
